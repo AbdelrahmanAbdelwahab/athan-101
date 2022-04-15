@@ -16,6 +16,8 @@
 		AA2C7B4827FE45970039B081 /* athan_101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2C7B4727FE45970039B081 /* athan_101Tests.swift */; };
 		AA2C7B5227FE45970039B081 /* athan_101UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2C7B5127FE45970039B081 /* athan_101UITests.swift */; };
 		AA2C7B5427FE45970039B081 /* athan_101UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2C7B5327FE45970039B081 /* athan_101UITestsLaunchTests.swift */; };
+		AAC3FE192801B1A30049CA3D /* salaahTimes.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC3FE182801B1A30049CA3D /* salaahTimes.xib */; };
+		AAC3FE1C2801CDD50049CA3D /* AutoLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC3FE1B2801CDD50049CA3D /* AutoLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		AA2C7B4D27FE45970039B081 /* athan 101UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "athan 101UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2C7B5127FE45970039B081 /* athan_101UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athan_101UITests.swift; sourceTree = "<group>"; };
 		AA2C7B5327FE45970039B081 /* athan_101UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athan_101UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAC3FE182801B1A30049CA3D /* salaahTimes.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = salaahTimes.xib; sourceTree = "<group>"; };
+		AAC3FE1B2801CDD50049CA3D /* AutoLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				AA2C7B3027FE45940039B081 /* AppDelegate.swift */,
 				AA2C7B3227FE45940039B081 /* SceneDelegate.swift */,
 				AA2C7B3427FE45940039B081 /* ViewController.swift */,
+				AAC3FE1B2801CDD50049CA3D /* AutoLayoutView.swift */,
 				AA2C7B3627FE45940039B081 /* Main.storyboard */,
+				AAC3FE1A2801B1AE0049CA3D /* Athan section */,
 				AA2C7B3927FE45960039B081 /* Assets.xcassets */,
 				AA2C7B3B27FE45960039B081 /* LaunchScreen.storyboard */,
 				AA2C7B3E27FE45960039B081 /* Info.plist */,
@@ -125,6 +131,14 @@
 				AA2C7B5327FE45970039B081 /* athan_101UITestsLaunchTests.swift */,
 			);
 			path = "athan 101UITests";
+			sourceTree = "<group>";
+		};
+		AAC3FE1A2801B1AE0049CA3D /* Athan section */ = {
+			isa = PBXGroup;
+			children = (
+				AAC3FE182801B1A30049CA3D /* salaahTimes.xib */,
+			);
+			path = "Athan section";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC3FE192801B1A30049CA3D /* salaahTimes.xib in Resources */,
 				AA2C7B3D27FE45960039B081 /* LaunchScreen.storyboard in Resources */,
 				AA2C7B3A27FE45960039B081 /* Assets.xcassets in Resources */,
 				AA2C7B3827FE45940039B081 /* Main.storyboard in Resources */,
@@ -259,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA2C7B3527FE45940039B081 /* ViewController.swift in Sources */,
+				AAC3FE1C2801CDD50049CA3D /* AutoLayoutView.swift in Sources */,
 				AA2C7B3127FE45940039B081 /* AppDelegate.swift in Sources */,
 				AA2C7B3327FE45940039B081 /* SceneDelegate.swift in Sources */,
 			);
